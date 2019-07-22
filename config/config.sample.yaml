@@ -1,0 +1,30 @@
+# 配置文件
+# 是否调试
+IsDebug: true
+IsLocDev: true
+
+# 服务目录
+BaseDir : ""
+
+# mysql
+MysqlConfig : "root:root@/database?charset=utf8&parseTime=True&loc=Local"
+
+# 日志路径
+LogFilePath : "/logs"
+
+# 监听地址
+RestServerAddr: "localhost:12200"
+
+# 操作秘钥
+OperationPassword: ""
+
+# 图片服务配置
+# 图片存放文件夹
+ImageSourceDirectory: ""
+# 限制图片大小
+ImageSizeLimit: 10485760  # 10MB
+# 图片服务域名和路径
+ImageServerHost: "http://localhost:12200"
+
+
+
